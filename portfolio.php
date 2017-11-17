@@ -107,7 +107,7 @@ define('PAGE','portfolio');
       <h2 id="int">Intégrations</h2>
       
      <section class="integration cf">
-      	<figure data-scroll-reveal="enter from the left move 30px after wait 0.4s no reset"> <a href="http://project1.matthieudesign.fr/" target="_blank"><img src="img/logo_meilhan.png" title="site meilhan" alt="meilhan">
+      	<figure data-scroll-reveal="enter from the left move 30px after wait 0.4s no reset"> <a href="http://meilhan.matthieudesign.fr/" target="_blank"><img src="img/logo_meilhan.png" title="site meilhan" alt="meilhan">
         	<figcaption>
             	<div><h3>Site complet</h3>
                 <p>Langages utilisés<br/><strong>HTML5, CSS3, PHP, JS</strong></p></div>
