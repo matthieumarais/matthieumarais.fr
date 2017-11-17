@@ -6,7 +6,7 @@ define('PAGE','accueil');
 <main >
   <section class="container bloc1 pageHome">
     <div class="logo"><img src="img/logo_head.svg" alt="logo matthieu marais" title="logo matthieu marais">
-      <h1>MATTHIEU MARAIS | <strong>WEB DESIGNER - INT&Eacute;GRATEUR</strong></h1>
+      <h1>MATTHIEU MARAIS | <strong>WEB DESIGNER - D&Eacute;VELOPPEUR WEB</strong></h1>
     </div>
     <div class="fleche"><a href="#scroll"><img src="img/fleche.svg" alt="fleche" title="flèche"></a></div>
   </section>
