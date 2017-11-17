@@ -1,0 +1,260 @@
+@media only screen and (max-width: 1200px){
+	
+
+	
+}
+
+@media only screen and (max-width: 990px){
+.container{
+	width:768px;
+}
+.home_selection article{
+	float:none;
+	margin: 100px auto 0;
+	width:30%;
+	}
+.home_selection article img {
+    padding-bottom: 5rem;
+	}
+.home_selection article h3 {
+    padding: 10rem 0 3rem;
+	}
+.home_selection article:last-child {
+	float:none;
+    margin: 100px auto 0;
+	}
+	
+/*********************************************  PRODUITS  ***************************************************************/
+
+.fg > p{
+	margin-left:70px;
+	}
+.magret div:last-child {
+	margin: -0.5rem 0 0 100px;
+    width: 50%;
+	}
+.confit{
+	padding-bottom: 6rem;
+	}
+.confit div {
+    width: 55%;
+	}
+.confit_c div:last-child {
+    margin-left: 75px;
+    width: 55%;
+	}
+.fritons, .gesier {
+    padding: 10rem 2rem;
+	}
+.fritons div, .gesier div{
+	width:55%;
+	}
+.salmis_canard p {
+    width: 34%;
+	}
+
+/*************************************  BOUTIQUE  *****************************************************************/
+
+.boutique{
+	padding-top:10rem;
+	}
+.boutique div{
+	float:none;
+	margin:6rem auto;
+	}
+.boutique div:nth-child(3n){
+	margin:6rem auto;
+	}
+.bg_boutique{
+	padding-bottom:10rem;
+	}
+.coffret div{
+	float:none;
+	margin: 0 auto 10rem;
+	}
+.coffret div:last-child {
+	margin: 0 auto;
+	}
+/*************************************  formulaire  *****************************************************************/	
+.contact .formulaire{
+	width:100%;
+	padding-bottom: 10rem;
+	}
+.contact .formulaire:last-child {
+    margin: 0 140px;
+	}
+#name, #city {
+    height: 4rem;
+    margin-bottom: 3rem;
+    width: 49%;
+	}
+/*************************************  FOOTER  *****************************************************************/
+.social img {
+    width: 100%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+
+.slider {
+    margin-top: 120px;
+}
+.bandeau{
+	margin-top:100px;
+	}
+#burger_nav{
+	display:none;
+	}
+.burger_affiche{
+	display:block!important;
+	transition:all ease 0.3s;
+	}
+#hamburger{
+	display:block;
+	background:none;
+	position: fixed;
+    right: 20px;
+    top: 10px;
+	z-index:1000;
+	}
+.menu li { 
+	float:none;
+	border:none;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.menu.cf {
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 120px;
+    z-index: 10000;
+}
+.menu li a{
+	background-color:none;
+	}
+.container{
+	width:428px;
+	margin:0 auto;
+	padding:0px 20px 0 20px;
+	}
+.logo img {
+    left: 50%;
+    position: absolute;
+    top: 30px;
+    width: 153px;
+	transform: translateX(-50%);
+	}
+.panier {
+    padding: 0.5rem 0 0;
+    text-align: center;
+}
+img{
+	width:100%;
+	}
+.bxslider img {
+    height: 200px;
+    width: 100%;
+	}
+h1{
+	font-size:2.5rem;
+	line-height:3rem;
+	}
+element.style{
+	height:250px;
+	}
+section .intro {
+    padding: 6rem 0rem;
+	}
+.home_vente article{
+	width:100%;
+	}	
+.home_vente > article{
+	margin-bottom:5rem;
+	}
+.home_selection article h3:first-child{
+	padding-bottom:3rem;
+	}
+
+.home_selection article{
+	width:60%;
+	}
+.home_vente a{
+	font-size:1.5rem;
+	}
+.elevage p{
+	padding:0;
+	}
+	
+/*************************************  FOOTER  *****************************************************************/
+
+.infos, .mentions, .paypal, .social {
+	float:none;
+	width:100%;
+	text-align:center;
+	}
+.paypal p {
+    color: #fff;
+    margin: 5rem 0 1rem;
+	}
+.paypal img{
+	width:60%;
+	}
+.social img {
+    width: 70%;
+	}
+#block-popup{
+	width:100%;
+	}
+#close-popup{
+	top:10px;
+	left:94%;
+	}
+.fg{
+	float:none;
+	width:100%;
+}
+.fg > p{
+	margin:0;
+	text-align:center;
+	}
+.fg:last-child{
+	width:100%;
+	}
+.conseils_gastro .conseils, .salmis_graisse div{
+	float:none;
+	width:100%;
+	text-align:center;
+	}
+.confit div, .fritons div, .gesier div{
+	float:none;
+	width:100%;
+	}
+.confit div:last-child{
+	width:90%;
+	}
+.confit_c div, .magret div{
+	float:none;
+	width:100%;
+	}
+}
+@media only screen and (max-width: 428px){
+.container{
+	width:100%;
+	margin:0 auto;
+	padding:0px 20px 0 20px;
+	}
+#block-popup{
+	width:100%;
+	}
+#close-popup{
+	top:10px;
+	left:94%;
+	}
+.home_selection article{
+	width:90%;
+	}
+
+}

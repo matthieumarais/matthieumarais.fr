@@ -1,0 +1,218 @@
+@media only screen and (max-width: 1200px) {
+.container {
+	width: 960px;
+}
+}
+ @media only screen and (max-width: 990px) {
+.container {
+	width: 768px;
+}
+.mini, .portrait {
+	float: none;
+	width: 100%;
+}
+
+.parallelogramme{
+	margin-right:3rem;
+	}
+.msg textarea{
+	width:50%;
+	}
+}
+ @media only screen and (max-width: 768px) {
+/******************************************  HAMBURGER  ***********************************/
+
+.hamburglar {
+	display: block;
+	position:fixed;
+}
+/********************************************************************************************/
+	
+html {
+	font-size: 50%;
+}
+.container {
+	width: 420px;
+	padding: 0;
+}
+main .homepage, .mini, .portrait, .contact {
+	float: none;
+	width: 100%;
+}
+.nav_pages {
+	height: 200px;
+	text-align: center;
+}
+
+.nav_pages ul {
+	display: none;
+}
+
+.nav_pages.affiche-menu ul {
+    background-color: #fff;
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 12rem;
+    width: 100%;
+}
+.nav_pages ul li {
+	float: none;
+	width: 100%;
+	padding: 3px;
+}
+.nav_pages ul li a{
+	color:#000;
+	}
+.bgapropos {
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.nav_pages img {
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin:23px 0 90px 0;
+}
+#arrow img{
+	width:45px;
+	}
+.footer {
+	position: relative;
+	text-align: center;
+}
+
+.footer ul {
+	display: inline-block
+}
+.footer ul li {
+	display: inline-block;
+	margin-right: 10px;
+	width: auto;
+}
+.footer ul li, ul.social {
+	float: none;
+}
+footer .info li a {
+	font-size: 2rem;
+}
+ul.social {
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	width: auto;
+}
+/***********************************************************************home****************************************************/
+.homepage img{
+	width:85%;
+	padding-top:4rem;
+	}
+.bloc3 .parallelogramme{
+	float:none;
+	margin:4rem auto;
+	-webkit-transform: skew(0);
+    -moz-transform: skew(0);
+    -o-transform: skew(0);
+    transform: skew(0);;
+	}
+.parallelogramme h3{
+		-webkit-transform: skew(0);
+    -moz-transform: skew(0);
+    -o-transform: skew(0);
+    transform: skew(0);
+	}
+.bloc3 .parallelogramme img{
+	-webkit-transform: skew(0);
+    -moz-transform: skew(0);
+    -o-transform: skew(0);
+    transform: skew(0);
+	}
+.bloc3 .parallelogramme:first-child img{
+	width:180%;
+	left:-43px;
+	}
+.bloc3 .parallelogramme:last-child img{
+	width:240%;
+	left:-111px;
+	}
+/***********************************************************************portfolio****************************************************/
+.pagePortfolio h1{
+	padding:20rem 0 0 0;
+	}
+.integration figure{
+	float:none;
+	width:100%;
+	}
+/***********************************************************************apropos****************************************************/
+.pictos img{
+	width:100%;
+	}
+/***********************************************************************contact****************************************************/
+.formulaire h1{
+	padding:20rem 0 10rem 0;
+	}
+.msg textarea{
+	width:100%;
+	}
+.contact div input{
+	width:100%;
+	}
+}
+ @media only screen and (max-width: 480px) {
+html {
+	font-size: 40%;
+}
+
+.container {
+	width: 320px;
+	padding: 0;
+}
+main .homepage, .mini, .portrait, .contact {
+	float: none;
+	width: 100%;
+}
+
+.portrait img {
+	height: auto;
+}
+.footer {
+	position: relative;
+	text-align: center;
+}
+.footer ul {
+	display: inline-block
+}
+.footer ul li {
+	display: inline-block;
+	margin-right: 10px;
+	width: auto;
+}
+.footer ul li, ul.social {
+	float: none;
+}
+
+footer .info li a {
+	font-size: 2rem;
+}
+ul.social {
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	width: auto;
+}
+#home {
+	height: 500px;
+	width: 320px;
+	margin: 0;
+}
+/***********************************************************************home****************************************************/
+.bloc3 .parallelogramme:last-child img{
+	width:240%;
+	left:-91px;
+	}
+/***********************************************************************portfolio****************************************************/
+
+}

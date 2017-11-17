@@ -1,0 +1,203 @@
+*{
+	box-sizing:border-box
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+	text-decoration:none
+}
+
+.cf:before, .cf:after{
+	content:"";
+	display:block;
+}
+
+.cf:after{
+	clear:both;
+}
+
+.cf{
+	*zoom:1;
+}
+
+@font-face {
+  font-family: 'multivote';
+  src:  url('../fonts/multivote.eot?7vv5oy');
+  src:  url('../fonts/multivote.eot?7vv5oy#iefix') format('embedded-opentype'),
+    url('../fonts/multivote.ttf?7vv5oy') format('truetype'),
+    url('../fonts/multivote.woff?7vv5oy') format('woff'),
+    url('../fonts/multivote.svg?7vv5oy#multivote') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'multivote' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-etoile:before {
+  content: "\e900";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-trash:before {
+  content: "\f014";
+}
+.icon-flag:before {
+  content: "\f024";
+}
+.icon-camera:before {
+  content: "\f03d";
+}
+.icon-tint:before {
+  content: "\f043";
+}
+
+
+.icon-heart{
+	font-size:50px;
+	color:red
+}
+
+.icon-heart:hover{
+	color:green
+}
+
+.picto{
+	display:inline-block;
+	padding:20px 60px;
+	border:solid 2px #d80b0c;
+	color:#d80b0c;
+	margin-left:100px;
+	position:relative
+}
+
+.picto::before {
+    content: "\f03d";
+    font-family: "multivote";
+    font-size: 25px;
+    left: -12px;
+    position: absolute;
+    top: 17px;
+}
+
+.picto:hover{
+	background-color:#d80b0c;
+	color:#fff
+}
+
+.picto:hover:before{
+	color:black
+}
+
+.strategir {
+    background:
+	url(../img/strategir.jpg) no-repeat 0 0;
+    display: inline-block;
+    height: 180px;
+    text-indent: -9999px;
+    width: 270px;
+	background-size:100%
+}
+
+.strategir:hover {
+    background-position: center bottom;
+}
+
+figure{
+	position:relative;
+	overflow:hidden;
+	display:inline-block
+}
+
+figure img{
+	display:block;
+}
+
+figure figcaption{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	width:100%;
+	height:100%;
+	transition:all ease 0.2s
+}
+
+figure:hover figcaption{
+	background-color: rgba(171, 32, 147, 0.5);
+}
+
+figure figcaption div{
+	position:absolute;
+	z-index:2;
+	bottom:-40px;
+	left:10px;
+	color:#fff;
+	transition:all ease 0.2s
+}
+
+figure:hover figcaption div{
+	bottom:10px
+}
+
+figure figcaption div h2{
+	font-size:25px;
+	font-weight:bold;
+	margin-bottom:20px
+}

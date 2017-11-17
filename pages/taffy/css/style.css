@@ -1,0 +1,135 @@
+nav{
+	height:70px;
+	}
+.navbar-brand{
+	padding-top:0;
+	}
+.navbar-brand > img {
+    height: auto;
+    width: 110%;
+}
+.navbar-inverse{
+	background-color:#3DB39E;
+	}
+.navbar-inverse .navbar-nav > li{
+	padding:25px 8px;
+	}
+.navbar-inverse .navbar-nav > li > a{
+	font-family: 'Nunito Sans', sans-serif;
+	color:#ffffff;
+	padding:0px 0px;
+	font-size:16px;
+	}
+.nav.navbar-nav > li:last-child{
+	background-color:#fff;
+	}
+.nav.navbar-nav > li:last-child a{
+	color:#3DB39E;	
+	}
+.form-control{
+	border:1px solid #3DB39E;
+	}
+.form-control#send{
+	background-color:#3DB39E;
+	color:#fff;
+	}
+li.active:after{
+	content:"";
+	width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 10px 10px 10px;
+border-color: transparent transparent #ffee53 transparent;
+left:50%;
+position:absolute;
+transform: translateX(-50%);
+bottom:0;
+	}
+.navbar-inverse .navbar-nav > li > a:hover{
+	color:#FFED53;
+	}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
+	background-color:transparent;
+	color:#FFED53;
+	}
+.navbar-inverse{
+	border-color:transparent;
+	}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	}
+	/*******************************************  BXSLIDER  ***************************************************/
+.bxslider img{
+	width:100%;
+	height:auto;
+	}
+.bx-wrapper .bx-viewport{
+	border:none;
+	box-shadow:none;
+	left:0;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+	background: #FFED53 none repeat scroll 0 0;
+	}
+.bx-wrapper .bx-pager.bx-default-pager a{
+	background:#3DB39E none repeat scroll 0 0;
+	}
+.bx-wrapper {
+    margin: -20px auto 100px;
+    padding:0;
+    position: relative;
+}
+.philosophie{
+	padding-bottom:60px;
+	}
+.philosophie h1{
+	font-size:36px;
+	margin-bottom:73px;
+	}
+.philosophie h2{
+	font-size:28px;
+	margin-bottom:60px;
+	}
+.philosophie img{
+	display:block;
+	width:50%;
+	height:auto;
+	margin:0 auto 36px;
+	}
+.color_green{
+	color:#3DB39E;
+	}
+.color_grey{
+	color:#3E4E5C;
+	}
+.color_red{
+	color:#DF5A48;
+	}
+p{
+	margin-bottom:27px;
+}
+.bg{
+	background:url(../img/background_prestation.jpg) no-repeat;
+	background-size:cover;
+	}
+.presentation{
+	padding:120px 0 130px;
+	}
+.presentation h2{
+	font-size:36px;
+	}
+.presentation h3{
+	font-size:24px;
+	margin-bottom:125px;
+	}
+.presentation h4{
+	font-size:28px;
+    margin-bottom:23px;
+	}
+.box{
+	background-color: #fff;
+    border: 1px solid #df5a48;
+    padding: 20px 25px;
+	margin-bottom:50px;
+	}

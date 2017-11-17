@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>structure Bootstrap</title>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+<link href="css/jquery.bxslider.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style_responsive.css">
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<header>
+  <nav class="navbar navbar-static-top navbar-inverse">
+    <div class="container">
+      <div class="row">
+        <div class=" col-md-3 text-left">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <a class="navbar-brand" href="index.html"><img src="img/logo_taffy.png" alt="taffy"></a></div>
+          </div>
+        <div class="col-md-9 text-right test">
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">ACCUEIL</a></li>
+            <li><a href="index.html">PRODUIT ÉCOLOGIQUE</a></li>
+            <li><a href="index.html">DISTRIBUTION</a></li>
+            <li><a href="index.html">ASSOCIATION</a></li>
+            <li><a href="index.html">CONTACT</a></li>
+            <li><a class="dropdown-toggle" data-toggle="dropdown" href="index.html">EXTRANET CRÈCHE</a>
+            	<ul class="dropdown-menu">
+                	<li>
+                    	<form class="navbar-form" method="get">
+                        	<div class="form-group modal-header">
+                            <label>Identifiant*</label>
+                            <input type="text" class="form-control" id="id" name="id">
+                            </div>
+                            <div class="form-group modal-body">
+                            <label>Mot de passe*</label>
+                            <input type="password" class="form-control" id="password" name="password">
+                        	</div>
+                            <div class="form-group modal-footer navbar-right">
+                            <input type="submit" class="form-control" id="send" name="send">
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<body>
+<main>
+<section class="container-fluid slider">
+	<div class="row">
+   <div class="col-lg-12">
+   	<ul class="bxslider">
+  <li><img src="img/slide1.jpg" /></li>
+  <li><img src="img/slide2.jpg" /></li>
+  <li><img src="img/slide3.jpg" /></li>
+  <li><img src="img/slide4.jpg" /></li>
+	</ul>
+    </div>
+</div>
+</section>
+<section class="container philosophie">
+  <h1 class="text-center color_grey">NOTRE PHILOSOPHIE </h1>
+  <div class="row">
+    <div data-scroll-reveal="enter from the top move 30px after wait 0.4s reset" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 text-center"> <img src="img/picto_qualite.png" alt="qualité">
+      <h2 class="color_green"> QUALIT&Eacute;</h2>
+    </div>
+    <div data-scroll-reveal="enter from the top move 30px after wait 0.6s reset" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 text-center"> <img src="img/picto_exigence.png" alt="exigence">
+      <h2 class="color_grey"> EXIGENCE </h2>
+    </div>
+    <div data-scroll-reveal="enter from the top move 30px after wait 0.8s reset" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 text-center"> <img src="img/picto_confiance.png" alt="confiance">
+      <h2 class="color_green"> CONFIANCE </h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <p class="text-center color_grey">Ces maîtres mots des métiers de la petite enfance sont au cœur de la philosophie de TAFFY. Comme vous, nous avons l’ambition de participer au bien-être des tous petits en vous proposant des produits d’hygiène et une sélection de couches de haute qualité, répondant parfaitement aux normes et à vos contraintes.</p>
+      <p class="text-center color_grey">La définition, la mise en place des procédures qualité et des audits réguliers nous permettent de vous garantir une qualité de service essentielle pour construire une relation de confiance.</p>
+    </div>
+  </div>
+</section>
+<section class="container_fluid bg">
+  <div class="container presentation">
+    <h2 class="text-center color_red">UNE PRESTATION SUR-MESURE</h2>
+    <h3 class="text-center color_grey">Le conseil et la formation en plus !</h3>
+    <div class="row">
+      <div data-scroll-reveal="enter from the top move 30px after wait 0.4s reset" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+        <h4 class="color_red text-center">NOS SERVICES</h4>
+        <div class="box">
+          <p class="color_grey text-center"> TAFFY met en œuvre des services personnalisés et des moyens de haute technologie pour répondre à vos besoins, quelle que soit votre structure. </p>
+        </div>
+      </div>
+      <div data-scroll-reveal="enter from the top move 30px after wait 0.6s reset" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+        <h4 class="color_red text-center text-nowrap">VOTRE CONSEILLER</h4>
+        <div class="box">
+          <p class="color_grey text-center"> TAFFY vous garantie un interlocuteur commercial et technique unique, un repérage de votre site et une mise au point logistique adaptée à celle-ci. </p>
+        </div>
+      </div>
+      <div data-scroll-reveal="enter from the top move 30px after wait 0.8s reset" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+        <h4 class="color_red text-center">VOS CHOIX</h4>
+        <div class="box">
+          <p class="color_grey text-center"> Le personnel de TAFFY, parfaitement formé à l’utilisation des produits, est là pour vous conseiller et vous aider à optimiser vos choix de produits. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/scrollReveal.min.js"></script> 
+<script>
+	$(document).ready(function(){
+  $('.bxslider').bxSlider({
+  	controls:false,
+		auto:true,
+  });
+  window.scrollReveal = new scrollReveal();
+});
+
+</script> 
+</html>

@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MULTIVOTE</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+<link rel="icon" href="img/favicon.png" type="image/x-icon">
+<link href="css/jquery.bxslider.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+<!--[if lt IE 9]>
+		<script
+src="http://html5shiv.googlecode.com/snv/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+<header>
+  <nav class="container cf">
+    <div class="logo"> <a href="index.html"><img src="img/logo_multivote.png" alt="logo multivote"></a> </div>
+    <div class="liens">
+      <ul class="fr">
+        <li><a href="#" id="demande-demo" class="color_blue">DEMANDER UNE D&Eacute;MO</a></li>
+        <li><a href="#" class="color_blue">FR</a></li>
+        <li><a href="#">EN</a></li>
+        <li><a href="#">SP</a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#" class="color_purple">CONCEPT</a></li>
+        <li><a href="#">OFFRES</a></li>
+        <li><a href="#">R&Eacute;ALISATION</a></li>
+        <li><a href="#">&Agrave; PROPOS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="overlay-popup">
+  <div id="bg-close"></div>
+    <div id="block-popup">
+      <div id="close-popup">X</div>
+      <p>DEMANDER UNE D&Eacute;MO</p>
+      <div class="formulaire">
+        <form method="post" action="traitement.php">
+          <div class="social">
+          <label for="social">RAISON SOCIALE</label>
+          <input type="text" name="social" id="social" required/>
+          </div>
+          <div class="nom">
+            <label for="nom">VOTRE NOM</label>
+            <input type="text" name="nom" id="nom" required/>
+          </div>
+          <div class="prenom">
+          <label for="prenom">VOTRE PR&Eacute;NOM</label>
+          <input type="text" name="prenom" id="prenom" required/>
+          </div>
+          <div class="email">
+            <label for="email">VOTRE EMAIL</label>
+            <input type="email" name="email" id="email" required/>
+          </div>
+          <div>
+            <label for="message">VOTRE MESSAGE</label><br/>
+            <textarea cols="50" rows="10"type="message" name="message" id="message"></textarea>
+          </div>
+          <div class="send">
+            <input type="submit" value"Envoyer"/>
+          </div>
+        </form>
+      </div>
+    
+  
+</header>
+<main>
+  <ul class="bxslider">
+    <li>
+      <h2><strong>IMAGINEZ L'ENGAGEMENT</strong></h2>
+      <span>en temps réel</span> <img src="img/slide1.jpg" title="slider1"/></li>
+    <li>
+      <h2><strong>PERSONNALISER LA RELATION</strong></h2>
+      <span>avec votre communauté</span> <img src="img/slide2.jpg" title="slider2"/></li>
+    <li>
+      <h2><strong>INT&Eacute;RAGISSEZ PARTOUT</strong></h2>
+      <span>à tout moment</span> <img src="img/slide3.jpg" title="slider3"/></li>
+    <li>
+      <h2><strong>VALORISEZ VOTRE AUDIENCE</strong></h2>
+      <span>dans la durée</span> <img src="img/slide4.jpg" title="slider4"/></li>
+  </ul>
+  
+  <section class="plateforme container cf">
+    <h1><strong class="color_blue">VOTRE PLATEFORME PARTICIPATIVE</strong>
+      <p>à portée de main</p>
+    </h1>
+    <p>Notre technologie aide à révéler les opinions en temps réel en agissant comme tiers de confiance</p>
+    <div data-scroll-reveal="enter from the left move 30px after wait 0.6s reset" class="sollicitez"> <img src="img/sollicitez.png" alt"sollicitez" width="140" height="140">
+      <h3><strong>SOLLICITEZ</strong></h3>
+      <p>Vous consultez<br/>
+        votre communauté<br/>
+        <strong class="color_blue">en temps réel</strong></p>
+    </div>
+    <div class="publiez" data-scroll-reveal="enter from the left move 30px after wait 0.8s reset"> <img src="img/publiez.png" alt="publiez" width="140" height="140">
+      <h3><strong>PUBLIEZ</strong></h3>
+      <p>Publication de vos consultations<br/>
+        sur <strong class="color_purple">tous vos supports</strong><br/>
+        <span>(réseaux sociaux, sites web, applications...)</span></p>
+    </div>
+    <div data-scroll-reveal="enter from the left move 30px after wait 1s reset" class="qualifiez"> <img src="img/qualifiez.png" alt="qualifiez" width="140" height="140">
+      <h3><strong>QUALIFIEZ</strong></h3>
+      <p>Votre <strong class="color_blue">communauté se qualifie</strong><br/>
+        via la plateforme MULTIVOTE<br/>
+        et s'engage auprès de vous</p>
+    </div>
+    <div data-scroll-reveal="enter from the left move 30px after wait 1.2s reset" class="captez"> <img src="img/captez.png" alt="captez" width="140" height="140">
+      <h3><strong>CAPTEZ</strong></h3>
+      <p>Les participants peuvent<br/>
+        recevoir et <strong class="color_purple">partager les résultats</strong><br/>
+        et <strong class="color_purple">enrichir</strong> vos consultations</p>
+    </div>
+  </section>
+  <section class="font">
+    <div class="offre container cf">
+      <h2 class="color_purple"><strong>DES OFFRES SUR-MESURE</strong></h2>
+      <div  data-scroll-reveal="enter from the top move 30px after wait 0.6s reset" class="media">
+        <figure> <a href="#"><img src="img/media.jpg" alt="media"></a>
+          <figcaption>
+            <div>
+              <h3><strong>Média</strong></h3>
+              <p>Fidéliser l'audience <br>
+                au long terme</p>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div data-scroll-reveal="enter from the top move 30px after wait 0.8s reset" class="entreprise">
+        <figure> <a href="#"><img src="img/entreprise.jpg" alt="entreprise"></a>
+          <figcaption>
+            <div>
+              <h3><strong>Entreprise</strong></h3>
+              <p>Créer un lien avec <br>
+                vos employés et vos clients</p>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div  data-scroll-reveal="enter from the top move 30px after wait 1s reset" class="secteur_public">
+        <figure> <a href="#"><img src="img/secteur-public.jpg" alt="secteur public"></a>
+          <figcaption>
+            <div>
+              <h3><strong>Secteur Public</strong></h3>
+              <p>Donner du sens à l'engagement<br/>
+                citoyen</p>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <section class="dev cf container">
+    <div data-scroll-reveal="enter from the left move 30px after wait 0.6s reset" class="phone"> <a href="#"><img src="img/devloppez-lien-privilegie.jpg" alt"phone"></a> </div>
+    <div data-scroll-reveal="enter from the right move 30px after wait 0.6s reset" class="text">
+      <h2 class=color_blue>D&Eacute;VELOPPEZ<br/>
+        UN LIEN PRIVIL&Eacute;GI&Eacute; <span>avec votre communauté</span></h2>
+      <p><strong>SOLLICITEZ</strong> votre communauté grâce à nos nombreux widgets de vote.</p>
+      <a href="#" class="color_blue bt">TESTEZ NOS WIDGETS<br/>
+      DE VOTE</a>
+      <p><strong>PUBLIEZ</strong> vos consultations sur les réseaux sociaux ou votre propre site monétisez-mes en y mettant les sponsors en avant.</p>
+      <p><strong>QUALIFIEZ</strong> votre communauté par nos 9 critères.</p>
+      <p><strong>CAPTEZ</strong> les opinions et analysez les résultats en quelques clics.</p>
+      <a href="#" class="color_purple bt">D&Eacute;COUVREZ<br/>
+      LA COMMUNAUT&Eacute; MULTIVOTE</a> </div>
+  </section>
+  <section class="img">
+    <div class="partenaires container">
+    <h2 class="color_purple"><strong>NOS PARTENAIRES</strong></h2>
+    <div data-scroll-reveal="enter from the left move 30px after wait 0.6s reset" class="strategir"> <img src="img/logo-strategir.png" alt="stratégir" width="205" height="66">
+      <h3 class="color_purple"><strong>PARTENAIRE COMMERCIAL</strong></h3>
+      <p><strong class="color_purple">STRAT&Eacute;GIR</strong> est un cabinet d'étude marketing qui réalise des études consommateurs.</p>
+      <p><strong>MULTIVOTE</strong> a développé pour <strong class="color_purple">STRATG&Eacute;IR</strong> une application mobile ludique et facile pour les panellistes, qui permet une meilleure analyse et un enrichissement de données collectées.</p>
+    </div>
+    <div  data-scroll-reveal="enter from the right move 30px after wait 0.6s reset" class="azure"> <img src="img/logo-microsoft-azure.png" alt="Azure" width="205" height="66">
+      <h3 class="color_blue"><strong>PARTENAIRE TECHNOLOGIQUE</strong></h3>
+      <p><strong>MULTIVOTE</strong> utilise la technologie <strong class="color_blue">MICROSOFT AZURE</strong> pour développer sa plateforme et son application.</p>
+      <p>Nous bénéficions ainsi d'une très haute fiabilité pour les votes, même lors de pics de participation.</p>
+    </div>
+    <div  data-scroll-reveal="enter from the bottom move 30px after wait 0.4s reset" class="bottom">
+      <h3><strong>DEVENEZ<br/>
+        AMBASSADEUR MULTIVOTE</strong></h3>
+      <a href="#" class="color_purple bt"><strong>CONTACTEZ-NOUS</strong></a> </div>
+  </section>
+  <section class="references container">
+    <h2 class="color_blue"><strong>NOS R&Eacute;F&Eacute;RENCES</strong></h2>
+    <ul class="bxslider1 cf">
+      <li><a href="#" class="background adeiso">adeiso</a></li>
+      <li><a href="#" class="background lesechos">lesechos</a></li>
+      <li><a href="#" class="background leparisien">le parisien</a></li>
+      <li><a href="#" class="background strategire">strategir</a></li>
+      <li><a href="#" class="background adeiso">adeiso</a></li>
+      <li><a href="#" class="background lesechos">lesechos</a></li>
+      <li><a href="#" class="background leparisien">le parisien</a></li>
+      <li><a href="#" class="background strategire">strategir</a></li>
+
+    </ul>
+    <div><a href="#" class="bt color_blue">NOS RÉALISATIONS</a></div>
+    <img src="img/references.jpg" alt="references"> </section>
+</main>
+<footer>
+  <section class="container cf">
+    <div class="footer_plateforme">
+      <h4 class="color_purple">LA PLATEFORME MULTIVOTE</h4>
+      <p>Multivote est un révélateur d'opinions.<br/>
+        La plateforme participative permet aux leaders d'opinion de mieux connaître leurs communautés grâce aux votes, afin de cibler leurs attentes et y répondre avec précision et efficacité</p>
+      <a href="#" class="color_purple">RENDEZ-VOUS SUR : multivote.fr</a> </div>
+    <div class="footer_liens">
+      <h4 class="color_blue">LIENS</h4>
+      <ul>
+        <li><a href="#">Nos réalisations</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Recrutement</a></li>
+        <li><a href="#">Blog Multivote</a></li>
+        <li><a href="#">Mentions légales</a></li>
+      </ul>
+      <p>©2016 Multivote</p>
+    </div>
+    <div class="footer_reseaux">
+      <h4 class="color_purple">R&Eacute;SEAUX</h4>
+      <ul>
+        <li><a href="#"><i class="icon-facebook2"></i></a></li>
+        <li><a href="#"><i class="icon-twitter"></i></a></li>
+        <li><a href="#"><i class="icon-google-plus"></i></a></li>
+        <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer_contact">
+      <h4 class=color_blue>CONTACT</h4>
+      <p><strong class="color_blue">PARIS</strong><br/>
+        23 rue Balzac - 75008 Paris<br/>
+        T: +33 (0)1 53 53 67 67</p>
+      <p><strong class="color_blue">BORDEAUX</strong><br/>
+        2 place de la bourse - Bordeaux Cedex 33076 CS 61275</p>
+    </div>
+  </section>
+  <div id="arrow"><img src="img/fleche-top.svg" alt="#"></div>
+</footer>
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/scrollreveal.min.js"></script>
+<script type="text/javascript" id="cookiebanner" src="http://cookiebanner.eu/js/cookiebanner.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){	
+	
+	$('.bxslider').bxSlider({
+  		controls:false,
+		auto:true
+	});
+	
+	$('.bxslider1').bxSlider({
+  		controls:false,
+		auto:true,
+		pager:false,
+		minSlides: 3,
+		maxSlides: 4,
+  		slideWidth: 270,
+  		slideMargin: 10
+	});
+	
+	$('#arrow').hide();
+
+	$(window).scroll(function(){
+		if($(window).scrollTop() >= 1800){
+			$('#arrow').fadeIn("slow");
+		}else{
+			$('#arrow').fadeOut("slow");
+		}
+	});
+	
+	$('#arrow').click(function(){
+		$('body,html').animate({
+			scrollTop: 0
+		}, 1000);
+		return false;	
+	});
+
+
+
+	$("#demande-demo").click(function(){
+		$("#overlay-popup").fadeIn(500,function(){
+			$("#block-popup").fadeIn(800);	
+		});	
+	});
+	
+	$("#close-popup,#bg-close").click(function(){
+		$("#overlay-popup").fadeOut(500,function(){
+			$("#block-popup").fadeOut(800);	
+		});		
+	})
+});
+</script>
+<script>
+$(document).ready(function(){
+	
+	window.scrollReveal = new scrollReveal();
+});
+</script>
+</body>
+</html>
