@@ -14,7 +14,6 @@
 <meta http-equiv="cache-control" content="no-cache, must-revalidate">
 <meta http-equiv="pragma" content="no-cache">
 <meta name="description" content="<?php echo $metaDescription; ?>">
-<meta name="keywords" content="portfolio, matthieu, marais, photoshop, illustrator, html5, css3, webdesign, responsive, integrateur, réalisation">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, 
 minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="HandheldFriendly" content="true">
@@ -57,10 +56,10 @@ src="http://html5shiv.googlecode.com/snv/trunk/html5.js"></script>
         </svg> </button>
   
     <ul>
-      <li <?php if(PAGE == 'accueil'){echo 'class="active"';}?>><a href="index">ACCUEIL</a></li>
-      <li <?php if(PAGE == 'portfolio'){echo 'class="active"';}?>><a href="portfolio">PORTFOLIO</a></li>
-      <li <?php if(PAGE == 'apropos'){echo 'class="active"';}?>><a href="apropos">&Agrave; PROPOS</a></li>
-      <li <?php if(PAGE == 'contact'){echo 'class="active"';}?>><a href="contact">CONTACT</a></li>
+      <li <?php if(PAGE == 'accueil'){echo 'class="active"';}?>><a href="index.php">ACCUEIL</a></li>
+      <li <?php if(PAGE == 'portfolio'){echo 'class="active"';}?>><a href="portfolio.php">PORTFOLIO</a></li>
+      <li <?php if(PAGE == 'apropos'){echo 'class="active"';}?>><a href="apropos.php">&Agrave; PROPOS</a></li>
+      <li <?php if(PAGE == 'contact'){echo 'class="active"';}?>><a href="contact.php">CONTACT</a></li>
     </ul>
   </nav>
 </header>

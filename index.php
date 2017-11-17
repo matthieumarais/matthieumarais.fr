@@ -23,14 +23,14 @@ define('PAGE','accueil');
       <section class="cf bloc3">      
         <div class="parallelogramme">
         <h3>Réalisations</h3>
-        <a href="portfolio?#ps"><img src="img/fish_logo.jpg" alt="poisson dans l'ampoule" title="poisson dans l'ampoule"></a>
+        <a href="portfolio.php?#ps"><img src="img/fish_logo.jpg" alt="poisson dans l'ampoule" title="poisson dans l'ampoule"></a>
         </div>        
         <div class="parallelogramme">
         <h3>Intégrations</h3>
-        <a href="portfolio?#int"><img src="img/code.png" alt="code html5 css3" title="code html5 css3"></a></div>        
+        <a href="portfolio.php?#int"><img src="img/code.png" alt="code html5 css3" title="code html5 css3"></a></div>        
         <div class="parallelogramme">
         <h3>&Agrave; propos</h3>
-        <a href="apropos"><img src="img/point_interrogation.png" alt="a propos" title="a propos"></a></div>
+        <a href="apropos.php"><img src="img/point_interrogation.png" alt="a propos" title="a propos"></a></div>
       </section>
     </div>
   </section>
