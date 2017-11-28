@@ -9,7 +9,7 @@
 <meta name="revisit-after" content="2 days">
 <meta name="rating" content="general">
 <meta name="revisit-after" content="2 days">
-<meta name="identifier-url" content="http://www.matthieudesign.com">
+<meta name="identifier-url" content="http://matthieudesign.com">
 <meta http-equiv="location" content="France">
 <meta http-equiv="cache-control" content="no-cache, must-revalidate">
 <meta http-equiv="pragma" content="no-cache">

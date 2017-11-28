@@ -17,7 +17,7 @@ define('PAGE','accueil');
         <p>Je vais faire court :)</p>
         <div><img src="img/portrait.png" alt="portrait" title="portrait"></div>
         <div>
-          <p>"Cela fait 20 ans que je surf sur le web. Je veux faire un métier qui me passionne, j’ai envie de créer et de m’éclater. Autodidacte en veille constante j'ai confirmé mes connaissances en effectuant une formation de niveau bac +2 en <strong>infographie multimédia</strong>, suivi d'une formation développeur web spécialisé Angular 4 à la Wild Code School."</p>
+          <p>"Cela fait 20 ans que je surf sur le web. Je veux faire un métier qui me passionne, j’ai envie de créer et de m’éclater. Autodidacte en veille constante j'ai confirmé mes connaissances en effectuant une formation de niveau bac +2 en <strong>infographie multimédia</strong>, suivi d'une formation <strong>développeur web spécialisé Angular 4</strong> à la Wild Code School."</p>
         </div>
       </article>
       <section class="cf bloc3">      
