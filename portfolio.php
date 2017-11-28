@@ -104,12 +104,24 @@ define('PAGE','portfolio');
           </figcaption>
         </figure></div>
         <div data-scroll-reveal="enter from the bottom move 30px after wait 0.4s no reset" class="banner"><img src="img/banner-fondu.gif" alt="banner" title="banner"> </div>
-      <h2 id="int">Intégrations</h2>
+      <h2 id="int">Développement web</h2>
       
      <section class="integration cf">
+     <figure data-scroll-reveal="enter from the left move 30px after wait 0.4s no reset"><a href="puissance4.mathieudesign.fr" target="_blank"><img src="img/puissance.png" title="jeu puissance 4" alt="jeu puissance 4">
+        	<figcaption>
+            	<div><h3>Jeu puissance 4 multijoueur</h3>
+                <p>Framework utilisé<br/><strong>Frontend: Angular 4, bootstrap, backend: firebase</strong></p></div>
+            </figcaption></a>
+        </figure>
+        <figure data-scroll-reveal="enter from the right move 30px after wait 0.4s no reset"><a href="pages/powergym/index.php" target="_blank"><img src="img/powergym.png" title="site powergym" alt="site powergym">
+        	<figcaption>
+            	<div><h3>Site complet en php</h3>
+                <p>Langages utilisés<br/><strong>HTML5, CSS3, PHP, JS, Bootstrap</strong></p></div>
+            </figcaption></a>
+        </figure>
       	<figure data-scroll-reveal="enter from the left move 30px after wait 0.4s no reset"> <a href="http://meilhan.matthieudesign.fr/" target="_blank"><img src="img/logo_meilhan.png" title="site meilhan" alt="meilhan">
         	<figcaption>
-            	<div><h3>Site complet</h3>
+            	<div><h3>Examen Web Designer </h3>
                 <p>Langages utilisés<br/><strong>HTML5, CSS3, PHP, JS</strong></p></div>
             </figcaption></a>
         </figure>
@@ -131,14 +143,7 @@ define('PAGE','portfolio');
                 <p>Framework utilisé<br/><strong>Bootstrap</strong></p></div>
             </figcaption></a>
         </figure>
-        <figure class="powergym" data-scroll-reveal="enter from the bottom move 30px after wait 0.4s no reset"><a href="pages/powergym/index.php" target="_blank"><img src="img/powergym.png" title="site powergym" alt="site powergym">
-        	<figcaption>
-            	<div><h3>En construction</h3>
-                <p>Framework utilisé<br/><strong>Bootstrap</strong></p></div>
-            </figcaption></a>
-        </figure>
       </section>
-     
   </div>
 </main>
 <?php include("include/footer.php")?>
