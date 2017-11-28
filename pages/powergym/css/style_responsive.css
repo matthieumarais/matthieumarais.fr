@@ -1,0 +1,86 @@
+@media all and (max-width: 1200px){
+		.bloc5{
+		padding-top:70px;
+		}
+	.concept p{
+		margin-top:10px;
+		font-size:1.6rem;
+		line-height:2rem;
+		padding-bottom:15px;
+		}
+	}
+
+@media all and (max-width: 992px){
+	.bloc5{
+		padding-top:70px;
+		}
+	.concept p{
+		margin-top:10px;
+		font-size:1.6rem;
+		line-height:2rem;
+		padding-bottom:15px;
+		}
+}
+
+@media all and (max-width: 768px){	
+.hamburglar{
+	display:block
+}
+	.navbar-brand{
+		float:none;
+		}
+	.h1Home{
+		font-size:3rem;
+		padding:0;
+		line-height:3.5rem;
+		top:17%;
+		}
+	.h1Equipements{
+		font-size:3.8rem;
+	}
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+	.adress{
+		font-size:1.6rem;
+		}
+	.h1Home{
+		font-size:2rem;
+		top:57%;
+		}
+	.preInscription a{
+		font-size:3rem;
+		}
+	.bgInscription{
+		background:none;
+		}
+	.h1Tarifs{
+		top:10%;
+		font-size:3.8rem;
+		}
+	.h2Tarifs{
+		padding:50px 0;
+		}
+	.h2Adhesion{
+		padding:0;
+		margin-top:10px;
+		}
+	.h1Equipements{
+		background-color:transparent;
+		padding:0;
+		}
+	.fb img, .youtube img, .instagram img{
+	width:120%;
+	}
+	.social {
+    padding-top: 40px;
+	padding-bottom:40px;
+}
+}
