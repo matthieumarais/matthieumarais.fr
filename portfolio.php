@@ -107,7 +107,7 @@ define('PAGE','portfolio');
       <h2 id="int">Développement web</h2>
       
      <section class="integration cf">
-     <figure data-scroll-reveal="enter from the left move 30px after wait 0.4s no reset"><a href="puissance4.mathieudesign.fr" target="_blank"><img src="img/puissance.png" title="jeu puissance 4" alt="jeu puissance 4">
+     <figure data-scroll-reveal="enter from the left move 30px after wait 0.4s no reset"><a href="http://puissance4.matthieudesign.fr" target="_blank"><img src="img/puissance.png" title="jeu puissance 4" alt="jeu puissance 4">
         	<figcaption>
             	<div><h3>Jeu puissance 4 multijoueur</h3>
                 <p>Framework utilisé<br/><strong>Frontend: Angular 4, bootstrap, backend: firebase</strong></p></div>
