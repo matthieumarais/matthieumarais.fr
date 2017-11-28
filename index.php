@@ -17,7 +17,7 @@ define('PAGE','accueil');
         <p>Je vais faire court :)</p>
         <div><img src="img/portrait.png" alt="portrait" title="portrait"></div>
         <div>
-          <p>"Cela fait 20 ans que je surf sur le web. Je veux faire un métier qui me passionne, j’ai envie de créer et de m’éclater. Autodidacte en veille constante j'ai confirmé mes connaissances en effectuant une formation de niveau bac +2 en <strong>infographie multimédia</strong>."</p>
+          <p>"Cela fait 20 ans que je surf sur le web. Je veux faire un métier qui me passionne, j’ai envie de créer et de m’éclater. Autodidacte en veille constante j'ai confirmé mes connaissances en effectuant une formation de niveau bac +2 en <strong>infographie multimédia</strong>, suivi d'une formation développeur web spécialisé Angular 4 à la Wild Code School."</p>
         </div>
       </article>
       <section class="cf bloc3">      
@@ -26,7 +26,7 @@ define('PAGE','accueil');
         <a href="portfolio.php?#ps"><img src="img/fish_logo.jpg" alt="poisson dans l'ampoule" title="poisson dans l'ampoule"></a>
         </div>        
         <div class="parallelogramme">
-        <h3>Intégrations</h3>
+        <h3>Développement</h3>
         <a href="portfolio.php?#int"><img src="img/code.png" alt="code html5 css3" title="code html5 css3"></a></div>        
         <div class="parallelogramme">
         <h3>&Agrave; propos</h3>
