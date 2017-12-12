@@ -6,7 +6,7 @@ define('PAGE','accueil');
 <main >
   <section class="container bloc1 pageHome">
     <div class="logo"><img src="img/logo_head.svg" alt="logo matthieu marais" title="logo matthieu marais">
-      <h1>MATTHIEU MARAIS | <strong>WEB DESIGNER - D&Eacute;VELOPPEUR WEB</strong></h1>
+      <h1>MATTHIEU MARAIS | <strong>D&Eacute;VELOPPEUR WEB - DESIGNER WEB</strong></h1>
     </div>
     <div class="fleche"><a href="#scroll"><img src="img/fleche.svg" alt="fleche" title="flèche"></a></div>
   </section>
@@ -20,14 +20,14 @@ define('PAGE','accueil');
           <p>"Cela fait 20 ans que je surf sur le web. Je veux faire un métier qui me passionne, j’ai envie de créer et de m’éclater. Autodidacte en veille constante j'ai confirmé mes connaissances en effectuant une formation de niveau bac +2 en <strong>infographie multimédia</strong>, suivi d'une formation <strong>développeur web spécialisé Angular 4</strong> à la Wild Code School."</p>
         </div>
       </article>
-      <section class="cf bloc3">      
+      <section class="cf bloc3">
+      <div class="parallelogramme">
+        <h3>Développement</h3>
+        <a href="portfolio.php?#int"><img src="img/code.png" alt="code html5 css3" title="code html5 css3"></a></div>    
         <div class="parallelogramme">
         <h3>Réalisations</h3>
         <a href="portfolio.php?#ps"><img src="img/fish_logo.jpg" alt="poisson dans l'ampoule" title="poisson dans l'ampoule"></a>
-        </div>        
-        <div class="parallelogramme">
-        <h3>Développement</h3>
-        <a href="portfolio.php?#int"><img src="img/code.png" alt="code html5 css3" title="code html5 css3"></a></div>        
+        </div>                
         <div class="parallelogramme">
         <h3>&Agrave; propos</h3>
         <a href="apropos.php"><img src="img/point_interrogation.png" alt="a propos" title="a propos"></a></div>

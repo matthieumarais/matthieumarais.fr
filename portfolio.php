@@ -7,6 +7,45 @@ define('PAGE','portfolio');
   <div class="container pagePortfolio">
     <div class="bg_ps">
       <h1 id="top-page"><strong>PORTFOLIO</strong></h1>
+      <h2 id="int">Développement web</h2>     
+     <section class="integration cf">
+     <figure data-scroll-reveal="enter from the right move 30px after wait 0.4s no reset"><a href="http://puissance4.matthieudesign.fr" target="_blank"><img src="img/puissance.png" title="jeu puissance 4" alt="jeu puissance 4">
+        	<figcaption>
+            	<div><h3>Jeu multijoueur</h3>
+                <p>Framework utilisé<br/><strong>Angular 4, bootstrap, firebase</strong></p></div>
+            </figcaption></a>
+        </figure>
+        <figure data-scroll-reveal="enter from the right move 30px after wait 0.4s no reset"><a href="pages/powergym/index.php" target="_blank"><img src="img/powergym.png" title="site powergym" alt="site powergym">
+        	<figcaption>
+            	<div><h3>Site en php</h3>
+                <p>Langages utilisés<br/><strong>HTML5, CSS3, PHP, JS, Bootstrap</strong></p></div>
+            </figcaption></a>
+        </figure>
+      	<figure data-scroll-reveal="enter from the left move 30px after wait 0.4s no reset"> <a href="http://meilhan.matthieudesign.fr/" target="_blank"><img src="img/logo_meilhan.png" title="site meilhan" alt="meilhan">
+        	<figcaption>
+            	<div><h3>Examen Web Designer </h3>
+                <p>Langages utilisés<br/><strong>HTML5, CSS3, PHP, JS</strong></p></div>
+            </figcaption></a>
+        </figure>
+        <figure data-scroll-reveal="enter from the left move 30px after wait 0.8s no reset"> <a href="pages/multivote/index.html" target="_blank"><img src="img/logo_multivote.png" title="site mutivote" alt="site multivote">
+        	<figcaption>
+            	<div><h3>Home page</h3>
+                <p>Langages utilisés<br/><strong>HTML5, CSS3, JS</strong></p></div>
+            </figcaption></a>
+        </figure>
+        <figure data-scroll-reveal="enter from the right move 30px after wait 0.8s no reset"> <a href="pages/sivan/index.html" target="_blank"><img src="img/logo_sivan.png" title="site sivan" alt="site sivan">
+        	<figcaption>
+            	<div><h3>Home page</h3>
+                <p>Framework utilisé<br/><strong>Bootstrap</strong></p></div>
+            </figcaption></a>
+        </figure>
+        <figure data-scroll-reveal="enter from the right move 30px after wait 0.4s no reset"><a href="pages/taffy/index.html" target="_blank"><img src="img/logo_taffy.png" title="site taffy" alt="site taffy">
+        	<figcaption>
+            	<div><h3>Home page</h3>
+                <p>Framework utilisé<br/><strong>Bootstrap</strong></p></div>
+            </figcaption></a>
+        </figure>
+      </section>
       <h2 id="ps">Réalisation sur Photoshop et Illustrator</h2>
       <div class="grid">
         <figure data-scroll-reveal="enter from the left move 30px after wait 0.4s no reset" class="effect-apollo"> <a class="zoombox zgallery1" href="img/NETTOYAGE_avant.jpg"><img src="img/NETTOYAGE_logo.jpg" alt="nettoyage"/>
@@ -104,46 +143,6 @@ define('PAGE','portfolio');
           </figcaption>
         </figure></div>
         <div data-scroll-reveal="enter from the bottom move 30px after wait 0.4s no reset" class="banner"><img src="img/banner-fondu.gif" alt="banner" title="banner"> </div>
-      <h2 id="int">Développement web</h2>
-      
-     <section class="integration cf">
-     <figure data-scroll-reveal="enter from the left move 30px after wait 0.4s no reset"><a href="http://puissance4.matthieudesign.fr" target="_blank"><img src="img/puissance.png" title="jeu puissance 4" alt="jeu puissance 4">
-        	<figcaption>
-            	<div><h3>Jeu multijoueur</h3>
-                <p>Framework utilisé<br/><strong>Angular 4, bootstrap, firebase</strong></p></div>
-            </figcaption></a>
-        </figure>
-        <figure data-scroll-reveal="enter from the right move 30px after wait 0.4s no reset"><a href="pages/powergym/index.php" target="_blank"><img src="img/powergym.png" title="site powergym" alt="site powergym">
-        	<figcaption>
-            	<div><h3>Site complet en php</h3>
-                <p>Langages utilisés<br/><strong>HTML5, CSS3, PHP, JS, Bootstrap</strong></p></div>
-            </figcaption></a>
-        </figure>
-      	<figure data-scroll-reveal="enter from the left move 30px after wait 0.4s no reset"> <a href="http://meilhan.matthieudesign.fr/" target="_blank"><img src="img/logo_meilhan.png" title="site meilhan" alt="meilhan">
-        	<figcaption>
-            	<div><h3>Examen Web Designer </h3>
-                <p>Langages utilisés<br/><strong>HTML5, CSS3, PHP, JS</strong></p></div>
-            </figcaption></a>
-        </figure>
-        <figure data-scroll-reveal="enter from the left move 30px after wait 0.8s no reset"> <a href="pages/multivote/index.html" target="_blank"><img src="img/logo_multivote.png" title="site mutivote" alt="site multivote">
-        	<figcaption>
-            	<div><h3>Home page</h3>
-                <p>Langages utilisés<br/><strong>HTML5, CSS3, JS</strong></p></div>
-            </figcaption></a>
-        </figure>
-        <figure data-scroll-reveal="enter from the right move 30px after wait 0.8s no reset"> <a href="pages/sivan/index.html" target="_blank"><img src="img/logo_sivan.png" title="site sivan" alt="site sivan">
-        	<figcaption>
-            	<div><h3>Home page</h3>
-                <p>Framework utilisé<br/><strong>Bootstrap</strong></p></div>
-            </figcaption></a>
-        </figure>
-        <figure data-scroll-reveal="enter from the right move 30px after wait 0.4s no reset"><a href="pages/taffy/index.html" target="_blank"><img src="img/logo_taffy.png" title="site taffy" alt="site taffy">
-        	<figcaption>
-            	<div><h3>Home page</h3>
-                <p>Framework utilisé<br/><strong>Bootstrap</strong></p></div>
-            </figcaption></a>
-        </figure>
-      </section>
   </div>
 </main>
 <?php include("include/footer.php")?>
