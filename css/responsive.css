@@ -126,9 +126,8 @@
         transform: skew(0);
     }
     .bloc3 .parallelogramme img {
-        width: 130%;
+        width: 200%;
         left: -43px;
-        top: -10%;
         -webkit-transform: skew(0);
         -moz-transform: skew(0);
         -o-transform: skew(0);
@@ -137,12 +136,10 @@
     .bloc3 .parallelogramme:first-child img {
         width: 240%;
         left: -43px;
-        top: 0;
     }
     .bloc3 .parallelogramme:last-child img {
         width: 240%;
         left: -111px;
-        top: 0;
     }
     /***********************************************************************portfolio****************************************************/
     .pagePortfolio h1 {
