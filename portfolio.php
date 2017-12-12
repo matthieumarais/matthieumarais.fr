@@ -110,7 +110,7 @@ define('PAGE','portfolio');
      <figure data-scroll-reveal="enter from the left move 30px after wait 0.4s no reset"><a href="http://puissance4.matthieudesign.fr" target="_blank"><img src="img/puissance.png" title="jeu puissance 4" alt="jeu puissance 4">
         	<figcaption>
             	<div><h3>Jeu multijoueur</h3>
-                <p>Framework utilisé<br/><strong>Frontend: Angular 4, bootstrap, backend: firebase</strong></p></div>
+                <p>Framework utilisé<br/><strong>Angular 4, bootstrap, firebase</strong></p></div>
             </figcaption></a>
         </figure>
         <figure data-scroll-reveal="enter from the right move 30px after wait 0.4s no reset"><a href="pages/powergym/index.php" target="_blank"><img src="img/powergym.png" title="site powergym" alt="site powergym">
