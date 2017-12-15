@@ -40,7 +40,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h2>VENEZ TENTER L'EXP&Eacute;RIENCE</h2>
-          <div class="bouton"> <a href="preinscription">PR&Eacute;-INSCRIPTION</a></div>
+          <div class="bouton"> <a href="preinscription.php">PR&Eacute;-INSCRIPTION</a></div>
         </div>
       </div>
     </section>
